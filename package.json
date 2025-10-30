@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "gh-pages -d dist -r https://github.com/inba-311/cloudi5.git",
+  "homepage": "https://github.com/Inba-311/mywebsitecloudi5.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://github.com/Inba-311/mywebsitecloudi5.git"
   },
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.2.2",
